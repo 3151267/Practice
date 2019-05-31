@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form  th:object = "${practiceForm}">
+    <span>Airi</span>
+    <span th:text = "${hello}"></span>
+    <span th:text = "*{name}"></span>
+    <span th:text = "*{hobby}"></span>
+</form>
+</body>
+</html>
