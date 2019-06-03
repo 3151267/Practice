@@ -18,6 +18,7 @@ public class AiriController {
         PracticeForm practiceForm = new PracticeForm();
         practiceForm.setHobby("ピアノ");
         practiceForm.setName("Airi");
+        System.out.println("Hi");
         model.addAttribute(practiceForm);
         model.addAttribute("hello","hi");
         return "itemRegisterForm";
